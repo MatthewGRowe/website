@@ -1,0 +1,4 @@
+[submodule "matthewrowe/public"]
+	path = matthewrowe/public
+	url = https://github.com/MatthewGRowe/matthewrowe.co.uk.git
+	branch = main

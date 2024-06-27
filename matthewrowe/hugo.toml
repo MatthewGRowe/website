@@ -1,0 +1,58 @@
+baseURL = 'https://www.matthewrowe.co.uk/'
+languageCode = 'en-us'
+title = "Free Instruction Booklets for Programmers"
+theme = 'mainroad'
+contentDir = 'content'
+
+# MainRoad Theme settings #
+paginate = "10" # Number of posts per page
+
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+[Params.widgets.social]
+  cached = false # activate cache if true
+  # Enable parts of social widget
+  github = "https://github.com/MatthewGRowe"
+  email = "mrowe@eastnorfolk.ac.uk"
+  #facebook = "username"
+  #twitter = "@mickgoldbrick"
+  #instagram = "username"
+  #linkedin = "username"
+  #telegram = "username"
+  #gitlab = "username"
+  #bitbucket = "username"
+  
+
+
+# Used in authorbox at the top of each page, need to add the 
+# authorbox option in the page frontmatter "authorbox: true"
+  [Author] 
+  name = "Matthew Rowe"
+  #bio appears at the bottom of the page
+  bio = "Matthew Rowe is a computing lecturer who writes accessable educational materials for use by anyone who wants to learn.  Feel free to contact me, mrowe@eastnorfolk.ac.uk."
+  avatar = "/img/myface.jpg"
+
+  [Params]
+  description = "Matthew Rowe's Instructions and Information" # Site description. Used in meta description
+  copyright = "Matthew Rowe -->" # Footer copyright holder, otherwise will use site title
+  #opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  mainSections = ["dir1", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  #mathjax = true # Enable MathJax
+  #mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  #customCSS = ["css/custom.css"] # Include custom CSS files
+  #customJS = ["js/custom.js"] # Include custom JS files
